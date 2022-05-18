@@ -18,7 +18,6 @@ public class StepDefFB extends BaseClass{
 	public void user_should_enter_the_and(String username, String password) {
 		findElementId("email").sendKeys(username);
 		findElementId("pass").sendKeys(password);
-		System.out.println("Username & password");
 	}
 
 //	@When("User should enter the username and password")
